@@ -25,6 +25,7 @@ def DetLaplace(A):
         return d
     return None
 
+
 """
 The function Cramer solves Ax=b, where A is a square matrix and b is the column matrix.
 
@@ -32,6 +33,7 @@ It uses the function `DetLaplace` from above to compute determinants.
 
 This is an implementation of algorithm 3.2 from Gander et al., Scientific Computing Book
 Returns None for non-square A matrix
+Returns x as a Row Matrix
 """
 
 def Cramer(A,b):
